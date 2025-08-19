@@ -61,54 +61,6 @@ const Projects: React.FC = () => {
         "Tests automatisés complets",
       ],
     },
-    {
-      id: 4,
-      title: "Système d'Analyse de Données en Temps Réel",
-      description:
-        "Plateforme d'analyse de données en temps réel avec tableau de bord interactif. Traitement de flux de données massives avec des algorithmes d'analyse statistique avancés.",
-      icon: Server,
-      color: "purple",
-      technologies: ["Python", "Apache Kafka", "Redis", "Docker"],
-      githubUrl: "https://github.com/tallaloum/realtime-analytics",
-      features: [
-        "Traitement de millions d'événements/seconde",
-        "Tableau de bord en temps réel",
-        "Alertes automatiques intelligentes",
-        "Architecture scalable et distribuée",
-      ],
-    },
-    {
-      id: 5,
-      title: "Plateforme E-commerce Intelligente",
-      description:
-        "Développement d'une plateforme e-commerce avec système de recommandation basé sur l'IA. Intégration de fonctionnalités avancées de personnalisation et d'analyse comportementale.",
-      icon: Globe,
-      color: "orange",
-      technologies: ["React", "Django", "PostgreSQL", "AI/ML"],
-      githubUrl: "https://github.com/tallaloum/smart-ecommerce",
-      features: [
-        "Système de recommandation IA",
-        "Analyse comportementale avancée",
-        "Paiements sécurisés intégrés",
-        "Interface d'administration complète",
-      ],
-    },
-    {
-      id: 6,
-      title: "Outil d'Optimisation de Performance",
-      description:
-        "Développement d'un outil d'analyse et d'optimisation des performances pour applications web. Monitoring automatique et suggestions d'amélioration basées sur l'analyse de code.",
-      icon: Zap,
-      color: "yellow",
-      technologies: ["JavaScript", "Node.js", "Webpack", "Analytics"],
-      githubUrl: "https://github.com/tallaloum/performance-optimizer",
-      features: [
-        "Analyse automatique du code",
-        "Suggestions d'optimisation intelligentes",
-        "Monitoring continu des performances",
-        "Rapports détaillés et visualisations",
-      ],
-    },
   ];
 
   const getColorClasses = (color: string) => {
