@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
       color: "blue",
       technologies: ["PostgreSQL", "Python", "SQL", "Indexation"],
       githubUrl:
-        "https://github.com/TallaLoum/Syst-me_de-_Gestion-_de-_Base-_de_Donn-es-_Avanc-.git",
+        "https://github.com/TallaLoum/Syst-me_de-_Gestion-_de-_Base-_de_Donn-es-_Avanc-",
       features: [
         "Optimisation automatique des requêtes",
         "Interface d'administration intuitive",
