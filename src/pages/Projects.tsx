@@ -28,7 +28,8 @@ const Projects: React.FC = () => {
       icon: Brain,
       color: "indigo",
       technologies: ["Python", "TensorFlow", "Pandas", "Scikit-learn"],
-      githubUrl: "https://github.com/tallaloum/ml-prediction-model",
+      githubUrl:
+        "https://github.com/TallaLoum/Mod-le_de_Machine_Learning_Pr-dictif",
       features: [
         "Précision de prédiction > 90%",
         "Traitement de données en temps réel",
