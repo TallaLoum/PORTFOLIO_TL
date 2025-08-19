@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
       icon: Code,
       color: "green",
       technologies: ["React", "Node.js", "MongoDB", "Express"],
-      githubUrl: "https://github.com/tallaloum/fullstack-webapp",
+      githubUrl: "https://github.com/TallaLoum/Application_Web_Full-Stack",
       features: [
         "Interface utilisateur responsive",
         "Authentification JWT sécurisée",
